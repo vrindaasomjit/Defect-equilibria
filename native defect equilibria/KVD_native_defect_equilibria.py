@@ -65,7 +65,7 @@ def trapz_electrons(rows_DOS, CBM_line, DOS, Ef, E_VBM):
     conc_electrons = conc_electrons/2
     return conc_electrons
 """
-****************TO FIND DEFECT CONCENTRATIONS AT A FIXED pO2*******************
+****************TO FIND DEFECT CONCENTRATIONS AT A GIVEN pO2*******************
 """
 """
 To find chemical potentials
