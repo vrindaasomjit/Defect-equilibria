@@ -18,10 +18,6 @@ import math as m
 import matplotlib.pyplot as plt
 import pylab
 from matplotlib.pyplot import figure
-global conc_holes
-global conc_electrons
-global VBM_line
-global CBM_line 
 """
 *****************TO FIND CONCENTRATION OF ELECTRONIC DEFECTS*******************
 """
