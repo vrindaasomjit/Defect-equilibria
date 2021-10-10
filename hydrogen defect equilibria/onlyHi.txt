@@ -1,0 +1,4 @@
+n	charge	num_O	num_Al	num_H	E_defect	NsiteNconfig	E_MP
+0	-1	0	0	1	-.88827318E+03	1	 	0.213
+1	0	0	0	1	-.89758172E+03	1        	0	
+2	1	0	0	1	-.90831840E+03	6        	0.213
