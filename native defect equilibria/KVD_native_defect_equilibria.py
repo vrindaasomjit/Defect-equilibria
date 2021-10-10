@@ -17,7 +17,6 @@ import numpy as np
 import math as m
 import matplotlib.pyplot as plt
 import pylab
-from matplotlib.pyplot import figure
 """
 *****************TO FIND CONCENTRATION OF ELECTRONIC DEFECTS*******************
 """
@@ -72,7 +71,7 @@ To find chemical potentials
 """
 # returning chemical potentials of O and Al over pO2 range: 1e-45 atm to 1 atm
 # uAl=EDFT_Al @ pO2=6.5e-42 atm, hence this limit
-def O_chempot(DFTE_O2, E_over, u0_O2, p0):
+def O_chempot(DFTE_O2, E_over, u0_O2, k, T, p0):
     p = np.empty((46,1), dtype=float)
     u_O = np.empty((46,1), dtype=float) 
     for i in range(0,46): 
